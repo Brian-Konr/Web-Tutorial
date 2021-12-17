@@ -30,7 +30,7 @@
 
 .navbar ul li {
     font-family: century;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
@@ -41,9 +41,10 @@
 }
 
 .navbar ul li a:hover {
-    background-color: white;
+    animation: navHover 2.2s ;
+    /* background-color: white;
     color: black;
-    box-shadow: 0 0 10px white;
+    box-shadow: 0 0 10px white; */
 }
 
 /* Home */
@@ -132,4 +133,15 @@
 .styled-table tbody tr.active-row {
     font-weight: bold;
     color: #009879;
+}
+
+@keyframes navHover {
+    0% {
+        color: black;
+    }
+    50% {
+        background-color: white;
+        color: black;
+        box-shadow: 0 0 10px white; 
+    }
 }
