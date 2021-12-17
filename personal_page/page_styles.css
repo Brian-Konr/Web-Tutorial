@@ -1,0 +1,135 @@
+/* You don't need to modify here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.personal-page {
+    background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url('fake_airchair.jpg') no-repeat center center/cover;
+    height: 760px;
+    width: 100%;
+    opacity: 0.8;
+    bottom: -100px;
+    left: 0px;
+}
+/* Nav Bar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.navbar ul li {
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+}
+
+.navbar ul li a:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+
+/* Home */
+.home {
+    display: flex;
+    flex-direction: column;
+}
+
+.headings {
+    font-family: century;
+    font-size: 4rem;
+}
+.home .headings {
+    position: absolute;
+    top: 45%;
+    left: 8%;
+    color: white;
+}
+
+#about {
+    display: inline-block;
+    background: url('about_bg.jpg') no-repeat center center/cover;
+    height: 760px;
+    width: 100%;
+}
+
+#about .headings {
+    margin-left: 50px;
+    margin-top: 2%;
+}
+
+#about img {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    width: 300px;
+    border-radius: 20%;
+}
+
+#about p {
+    margin-left: 50px;
+}
+
+.content {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin-left: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}

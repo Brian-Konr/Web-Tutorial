@@ -1,0 +1,20 @@
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    background-color: gray;
+
+    /* box-shadow: 0 3px 6px 0 rgba(0,0,0,.2); */
+}
+.navbar a {
+    font-size: 20px;
+    color: white;
+    /* text-align: center; */
+    padding: 14px 20px;
+
+    /* 修改以下值試試看 none | line-through | overline | underline | */
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: blue;
+}
