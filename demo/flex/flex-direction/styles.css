@@ -9,7 +9,7 @@
   
 .item {
     flex: 1;
-    background-color: #f08bc3;
+    background-color: orange;
     margin: 5px;
     display: flex;
     justify-content: center;
@@ -22,5 +22,5 @@
     flex-grow: 2;
     flex-shrink: 1;
     flex-basis: 0%;
-    background-color: #f08bc3;
+    background-color: orange;
 }
